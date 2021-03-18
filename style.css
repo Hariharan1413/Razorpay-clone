@@ -1,13 +1,13 @@
 *{
     height: auto;
     width: auto;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Helvetica, sans-serif;
 }
 .banner {
     background-color:#def4ff ;
     height: 50px;
     margin: 0;
-    font-family: Arial;
+    font-family: 'Roboto',sans-serif;
     font-weight: 700;
     color: #1461a9;
     font-size: 18px;
@@ -50,7 +50,7 @@
 .list, li {
     color:white; 
     font-size:15px ;
-    font-family:Arial; 
+    font-family:'Roboto',sans-serif; 
     margin:-5px 25px 10px -10px;  
     padding-right: 40px;
     float:left;  
@@ -98,7 +98,8 @@ li:hover {
     height:40px;
     float:left; 
     width:150px;  
-    font:18px Arial; 
+    font-size: 18px;
+    font-family: 'Roboto',sans-serif; 
     color:#6290D9;  
     font-weight:400;  
     text-align:center; 
@@ -106,14 +107,11 @@ li:hover {
 }
  #arrow {
      margin:-5px 0px;
- }
-.signup:focus { 
-    outline: none ! important;
-}       
+ }   
 .links {
     color:white; 
     font-size:15px;
-    font-family:  Arial; 
+    font-family:'Roboto',sans-serif; 
     margin:5px 25px -10px 0px;  
     float:left;  
     text-align:center; 
@@ -132,7 +130,7 @@ li:hover {
     text-align:start;  
     color:white;  
     font-size:38px;
-    font-family: sans-serif;  
+    font-family: 'Roboto',sans-serif;  
     font-weight:800;
  }
 .linecode {
@@ -146,14 +144,19 @@ p {
     color:#B4A999;    
     font-size:18px;
     line-height: 1.6; 
-    font-family: Arial;   
+    font-family: 'Roboto',sans-serif;   
     text-align:left;   
     margin:30px 0px 0px -40px;  
     float:left;
 }
+#signup2 {
+    color:white;
+    font-size: 17px;
+    margin-right: -10px;
+}
 .signup2 {
     font-size:20px;
-    font-family:  Arial;  
+    font-family: 'Roboto',sans-serif;  
     text-align:center;  
     width:150px;  
     height:40px;  
@@ -1086,7 +1089,7 @@ button {
     border:none !important;
 }
 
-@media screen and (max-width:400px)
+@media  (min-width:350px)and (max-width:420px)
 {*{
     height: auto;
     width: auto;
@@ -1094,15 +1097,15 @@ button {
 }
 .banner {
     background-color:#def4ff ;
-    height: 60px;
+    height: 40%;
     margin: 0;
-    font-family: Arial;
+    font-family:'Roboto',sans-serif;
     font-weight: 700;
     padding-top: 8px;
     color: #1461a9;
     font-size: 15px;
     text-align: center;
-    width: 380px;
+    width: 100%;
     transform: scaleX(1.01);
 }
 .button ,a{
@@ -1167,7 +1170,7 @@ button {
 .flag {
     width:40px;
     float:left;
-    margin:8px -17px 0px 2px;
+    margin:8px -17px 0px -7px;
 }
 .head-left {
     height:350px;  
