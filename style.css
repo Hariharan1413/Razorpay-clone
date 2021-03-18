@@ -1082,12 +1082,6 @@ a {
     margin-left: -15px;
 }
 
-.bottom-para p{
-     float:right;font-size:18px;
-    }
-button {
-    border:none !important;
-}
 
 @media  (min-width:350px)and (max-width:420px)
 {*{
@@ -2131,13 +2125,6 @@ a {
     color:#2661c0;
     background: none;
     margin-left: -15px;
-}
-
-.bottom-para p{
-     float:right;font-size:18px;
-    }
-button {
-    border:none !important;
 }
 
 }
